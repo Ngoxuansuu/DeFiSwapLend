@@ -1,23 +1,29 @@
 {
   "name": "defiswaplend",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1", 
+  "description": "A DeFi smart contract for token swapping, lending, and liquidity pools",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "defiswaplend": "./bin/defiswaplend.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
+    "verify": "npx hardhat verify --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ngoxuansuu/DeFiSwapLend.git"
+  },
+  "keywords": ["defi", "smart-contract", "solidity", "hardhat", "blockchain"],
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@nomicfoundation/hardhat-verify": "^2.0.14",
-    "hardhat": "^2.24.3"
-  },
-  "dependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
     "@openzeppelin/contracts": "^5.0.2",
-    "dotenv": "^16.5.0",
-    "web3": "^4.16.0"
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.15"
   }
 }

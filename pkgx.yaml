@@ -1,0 +1,9 @@
+name: defiswaplend
+version: 1.0.1
+description: CLI for DeFiSwapLend smart contract
+homepage: https://github.com/username/DeFiSwapLend
+license: MIT
+dependencies:
+  - node
+install:
+  - npm install -g defiswaplend@1.0.1

@@ -22,3 +22,7 @@ cd DeFiSwapLend
 
 # Install dependencies
 npm install
+## Installation via npm
+
+```bash
+npm install -g defiswaplend

@@ -17,7 +17,7 @@ To set up the project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/DeFiSwapLend.git
+git clone https://github.com/Ngoxuansuu/DeFiSwapLend.git
 cd DeFiSwapLend
 
 # Install dependencies

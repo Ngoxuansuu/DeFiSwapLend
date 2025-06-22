@@ -1,6 +1,6 @@
 {
   "name": "defiswaplend",
-  "version": "1.0.1", 
+  "version": "1.0.2", 
   "description": "A DeFi smart contract for token swapping, lending, and liquidity pools",
   "main": "index.js",
   "bin": {
